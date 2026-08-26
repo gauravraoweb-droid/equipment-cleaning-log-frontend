@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:9326/api',
+  baseURL: 'https://equipment-cleaning-log-backend-production.up.railway.app/api',
   headers: { 'Content-Type': 'application/json' },
 });
 
